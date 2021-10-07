@@ -17,7 +17,7 @@ namespace Contratos
             DateTime dataInicial = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy", CultureInfo.InvariantCulture);
 
             Console.Write("Valor do contrato: ");
-            double valor = double.Parse(Console.ReadLine());
+            double valor = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             Console.Write("Número de Parcelas: ");
             int parcelas = int.Parse(Console.ReadLine());
@@ -26,7 +26,7 @@ namespace Contratos
 
             a.GerarParcelas(parcelas);
 
-            
+            Console.WriteLine(a.ImprimirParcelas());
             
             
             

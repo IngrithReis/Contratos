@@ -1,7 +1,5 @@
 ﻿using Contratos.Entities;
-using System;
-using System.Collections.Generic;
-using System.Text;
+
 
 namespace Contratos.Services
 {

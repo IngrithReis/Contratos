@@ -1,8 +1,4 @@
-﻿using Contratos.Entities;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using Contratos.Entities;
+﻿
 
 namespace Contratos.Services
 {
