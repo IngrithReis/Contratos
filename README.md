@@ -1,17 +1,21 @@
- # Desafio com uso de Interface e Services
-Uma empresa deseja automatizar o processamento de seus contratos. O processamento de
+ # :pushpin: Desafio com uso de Interface e Services
+ 
+ Desafio aula 199 [Udemy](https://www.udemy.com/course/programacao-orientada-a-objetos-csharp/)
+</p>Uma empresa deseja automatizar o processamento de seus contratos. O processamento de
 um contrato consiste em gerar as parcelas a serem pagas para aquele contrato, com base no
-número de meses desejado.
-A empresa utiliza um serviço de pagamento online para realizar o pagamento das parcelas.
-Os serviços de pagamento online tipicamente cobram um juro mensal, bem como uma taxa
-por pagamento. Por enquanto, o serviço contratado pela empresa é o do Paypal, que aplica
+nÃºmero de meses desejado.
+<p align=â€centerâ€>
+</p>A empresa utiliza um serviÃ§o de pagamento online para realizar o pagamento das parcelas.
+Os serviÃ§os de pagamento online tipicamente cobram um juro mensal, bem como uma taxa
+por pagamento. Por enquanto, o serviÃ§o contratado pela empresa Ã© o do Paypal, que aplica
 juros simples de 1% a cada parcela, mais uma taxa de pagamento de 2%.
-Fazer um programa para ler os dados de um contrato (número do contrato, data do contrato,
-e valor total do contrato). Em seguida, o programa deve ler o número de meses para
-parcelamento do contrato, e daí gerar os registros de parcelas a serem pagas (data e valor),
-sendo a primeira parcela a ser paga um mês após a data do contrato, a segunda parcela dois
-meses após o contrato e assim por diante. Mostrar os dados das parcelas na tela.
+Fazer um programa para ler os dados de um contrato (nÃºmero do contrato, data do contrato,
+e valor total do contrato).
+</p>Em seguida, o programa deve ler o nÃºmero de meses para
+parcelamento do contrato, e daÃ­ gerar os registros de parcelas a serem pagas (data e valor),
+sendo a primeira parcela a ser paga um mÃªs apÃ³s a data do contrato, a segunda parcela dois
+meses apÃ³s o contrato e assim por diante. Mostrar os dados das parcelas na tela.
 
-# ? UML
- <img src="/screenshot/screenshot1.PNG" width="950px"</img> 
-<img src="/screenshot/screenshot2.PNG" width="950px"</img> 
+# :desktop_computer: UML
+<img src="/screenshot/screenshot1.PNG" width="950px"></img> 
+<img src="/screenshot/screenshot2.PNG" width="950px"></img> 
